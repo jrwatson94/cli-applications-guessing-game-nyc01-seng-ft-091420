@@ -3,12 +3,12 @@
 
 def random_number
   rand_num = rand(6) + 1
-  rand_num
+  puts rand_num
 end
 
 def guess_number 
   guess = gets.chomp
-  guess
+  puts guess
 end
 
 random_number
