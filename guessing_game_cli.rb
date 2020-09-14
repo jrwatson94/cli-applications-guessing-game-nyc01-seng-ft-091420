@@ -19,7 +19,7 @@ end
 
 def compare_guess(guess)
   cpu_num = random_number
-  if guess == random_number
+  if guess_number == random_number
     puts "You guess the correct number!"
   else
     puts "Sorry! The computer guess #{cpunum}."
