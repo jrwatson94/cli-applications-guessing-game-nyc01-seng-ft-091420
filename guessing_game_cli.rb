@@ -22,7 +22,7 @@ def compare_guess(guess)
   if guess_number == random_number
     puts "You guess the correct number!"
   else
-    puts "Sorry! The computer guess #{cpu_num}."
+    puts "Sorry! The computer guessed #{cpu_num}."
   end
   puts "Goodbye!"
 end
