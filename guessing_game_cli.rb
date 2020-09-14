@@ -20,10 +20,8 @@ def guess_number
 end
 
 def compare_guess
-  guess = guess_number
   cpu_num = random_number
-  binding.pry
-  if guess == cpu_num
+  if guess_number == cpu_num
     puts "You guessed the correct number!"
   else
     puts "Sorry! The computer guessed #{cpu_num}."
