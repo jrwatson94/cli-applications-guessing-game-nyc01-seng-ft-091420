@@ -22,6 +22,7 @@ end
 def compare_guess
   guess = guess_number
   cpu_num = random_number
+  binding.pry
   if guess == cpu_num
     puts "You guessed the correct number!"
   else
