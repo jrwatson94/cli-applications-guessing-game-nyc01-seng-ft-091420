@@ -36,4 +36,5 @@ def run_guessing_game
   welcome
   prompt
   compare_guess
+  binding.pry
 end
