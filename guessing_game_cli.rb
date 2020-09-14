@@ -28,6 +28,8 @@ def compare_guess(guess)
 end
 
 def run_guessing_game
+  welcome
+  prompt
   input = guess_number
   compare_guess(input)
 end
