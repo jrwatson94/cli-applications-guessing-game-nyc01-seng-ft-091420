@@ -1,15 +1,26 @@
 # Code your solution here!
+def welcome
+  puts "Welcome to the Number Guessing Game!"
+end
 
+def prompt 
+  puts "Guess a number from 1 to 6"
+end
 
 def random_number
   rand_num = rand(6) + 1
-  puts rand_num
+  rand_num
 end
 
 def guess_number 
   guess = gets.chomp
-  puts guess
+  guess
 end
 
-random_number
-guess_number
+def compare_guess(guess)
+  cpu_num = random_number
+  if guess == random_number
+    puts "You guess the correct number!"
+  else
+    puts "Sorry! The computer guess #{cpunum}."
+  end
