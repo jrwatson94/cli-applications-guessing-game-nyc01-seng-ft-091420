@@ -24,3 +24,10 @@ def compare_guess(guess)
   else
     puts "Sorry! The computer guess #{cpunum}."
   end
+  puts "Goodbye!"
+end
+
+def runner
+  input = guess_number
+  compare_guess(input)
+end
