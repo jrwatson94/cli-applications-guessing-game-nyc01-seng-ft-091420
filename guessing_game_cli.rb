@@ -17,9 +17,10 @@ def guess_number
   guess
 end
 
-def compare_guess(guess)
+def compare_guess
+  guess = guess_number
   cpu_num = random_number
-  if guess_number == random_number
+  if guess == cpu_num
     puts "You guess the correct number!"
   else
     puts "Sorry! The computer guessed #{cpu_num}."
@@ -30,6 +31,5 @@ end
 def run_guessing_game
   welcome
   prompt
-  input = guess_number
-  compare_guess(input)
+  compare_guess
 end
