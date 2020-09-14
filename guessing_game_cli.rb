@@ -4,7 +4,7 @@ def welcome
 end
 
 def prompt 
-  puts "Guess a number from 1 to 6"
+  puts "Guess a number from 1 to 6:"
 end
 
 def random_number
@@ -21,7 +21,9 @@ def compare_guess
   guess = guess_number
   cpu_num = random_number
   if guess == cpu_num
-    puts "You guess the correct number!"
+    puts "You guessed the correct number!"
+    binding.pry
+    
   else
     puts "Sorry! The computer guessed #{cpu_num}."
   end
