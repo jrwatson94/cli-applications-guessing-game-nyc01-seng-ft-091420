@@ -15,7 +15,7 @@ def random_number
 end
 
 def guess_number 
-  guess = gets.chomp
+  guess = gets.chomp.to_i
   guess
 end
 
