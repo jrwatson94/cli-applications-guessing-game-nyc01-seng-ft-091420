@@ -27,7 +27,7 @@ def compare_guess(guess)
   puts "Goodbye!"
 end
 
-def runner
+def run_guessing_game
   input = guess_number
   compare_guess(input)
 end
