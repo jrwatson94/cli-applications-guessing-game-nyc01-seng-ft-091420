@@ -1,4 +1,6 @@
 # Code your solution here!
+require "pry"
+
 def welcome
   puts "Welcome to the Number Guessing Game!"
 end
